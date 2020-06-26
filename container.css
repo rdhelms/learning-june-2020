@@ -3,9 +3,9 @@
  margin: 10px;
  border: 2px solid steelblue;
  border-radius: 4px;
- transition: 2s transform linear;
+ transition: 0.5s transform linear;
 }
 
 #container:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
