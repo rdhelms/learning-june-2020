@@ -1,3 +1,5 @@
+import { module2Hello } from './module2.js'
+
 const containerElement = document.getElementById('container')
 
-containerElement.textContent = 'Hello from module 1'
+containerElement.textContent = module2Hello
