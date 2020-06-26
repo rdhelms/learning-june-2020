@@ -1,3 +1,3 @@
-const somethingImportant = 'This is important'
+const containerElement = document.getElementById('container')
 
-export { somethingImportant }
+containerElement.textContent = 'Hello from module 1'
