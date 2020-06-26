@@ -1,11 +1,12 @@
 #container {
+ width: 200px;
  padding: 10px;
- margin: 10px;
+ margin: 50px;
  border: 2px solid steelblue;
  border-radius: 4px;
- transition: 0.5s transform linear;
+ transition: 0.2s transform linear;
 }
 
 #container:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
